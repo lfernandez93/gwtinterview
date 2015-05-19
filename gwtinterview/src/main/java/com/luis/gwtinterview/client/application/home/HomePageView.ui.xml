@@ -1,0 +1,29 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+	<g:HTMLPanel ui:field="mainPanel">
+		<g:HTMLPanel ui:field="devPanel">
+			<h1 ui:field="devName"></h1>
+		</g:HTMLPanel>
+
+		<g:HTMLPanel ui:field="appMenu">
+			<ul ui:field="menu">
+				<li>
+					<g:Anchor ui:field="homeMenu"></g:Anchor>
+				</li>
+				<li>
+					<g:Anchor ui:field="hobby1"></g:Anchor>
+				</li>
+				<li>
+					<g:Anchor ui:field="hobby2"></g:Anchor>
+				</li>
+				<li>
+					<g:Anchor ui:field="reset"></g:Anchor>
+				</li>
+			</ul>
+		</g:HTMLPanel>
+		<div align="center">
+			<g:HTMLPanel ui:field="content">
+			</g:HTMLPanel>
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder>
